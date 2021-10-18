@@ -1,0 +1,166 @@
+* {margin: 0;
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    background-color: dodgerblue;
+    border-bottom: solid orange;
+}
+
+.links{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+img{
+    width: 80px;
+    height: 80px;
+    position: fixed;
+    background-size: 100% 100%;
+    border: solid orange 2px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+a{
+    color: orange;
+    line-height: 80px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: flex-end;
+
+    box-sizing: border-box;
+}
+
+.splash {
+    width: 100%;
+    height: 300px;
+    border-bottom: solid orange;
+    background-image: url("https://images.pexels.com/photos/518485/pexels-photo-518485.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px;
+    color: orange;
+
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-sizing: border-box;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.subtitle{
+    background-image: url("https://thumbs.dreamstime.com/b/lake-water-622399.jpg");
+    background-size: 100% 100%;
+    border: solid orange;
+    border-top: solid orange 40px;
+    height: 150px;
+    max-width: 250px;
+    color: orange;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.18);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 8px;
+
+}
+
+.para{
+    width: 100%;
+    min-height: 300px;
+    border-bottom: solid orange;
+    border-top: solid  orange;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.sub2{
+    background-image: url("https://thumbs.dreamstime.com/b/lake-water-622399.jpg");
+    background-size: 100% 100%;
+    border: solid orange;
+    border-top: solid orange 70px;
+    height: 250px;
+    width: 350px;
+    color: orange;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.18);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 8px;
+}
+
+.subtext{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    color: orange;
+    border-top: solid orange;
+    border-bottom: solid orange;
+    line-height: 80px;
+    background-color: cornflowerblue;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
